@@ -1,0 +1,158 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.travel{
+    color:  #FF5400;
+}
+.nav-imag{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    margin-right: 300px;
+}
+.band-img{
+    width: 40%;
+    height: 40%;
+    margin-right: 20px;
+    
+
+}
+ 
+.nav-items>ul{
+  display: flex;
+  
+}
+.nav-items>ul>li{
+   list-style: none;
+   margin-right: 20px;
+   margin-top: 30px;
+
+    
+}
+.nav-items>ul>li>a{
+    text-decoration: none;
+    font-size: large;
+    color: #000000;
+    font-weight: bold;
+}
+.nav-items>ul>li>a.home{
+    color: #FF5400;
+}
+
+
+/* banner style */
+.banner-img{
+    position: absolute;
+    padding: 60px;
+    
+}
+.b-img {
+    width: 1165px;
+    margin-left: 25px;
+}
+.box-sadow{
+    background-image: linear-gradient(rgb(92, 90, 90),black,black,black,white, rgb(146, 146, 146));
+    height: 488px;
+    width: 1165px;
+    border-radius:15px;
+    position: relative;
+    top: 59px;
+    left: 83px;
+    opacity: 40%;
+}
+.banner-text-section{
+    position: relative;
+    top: -350px;
+    left: 350px;
+    width: 0px;
+}
+.banner-text>h1{
+    color: white;
+    width: 600px;
+    text-align: center;
+}
+.banner-text>p{
+    color: white;
+    width: 600px;
+    text-align: center;
+}
+
+
+.banner-input{
+    display: flex;
+    gap: 60px;
+    margin-top: 40px;
+    
+    width: 800px;
+    height: 50px;
+    align-items: center;
+    padding: 35px;
+    margin-left: -100px;
+    
+    border-radius: 10px;
+   
+}
+.input{
+    width: 120px;
+    padding: 20px;
+    z-index: 1;
+
+   
+    
+}
+.input-g{
+    padding: 10px 10px;
+    border-radius: 10px;
+    
+}
+.input-sadow {
+    width: 792px;
+    height: 104px;
+    background: #ffffff;
+    position: relative;
+    top: -86px;
+    left: -76px;
+    opacity: 24%;
+    z-index: 0;
+    border-radius: 20px;
+    border: 4px solid gray;
+}
+.find-btn{
+    width: 100px;
+    padding: 5px;
+    background-color: #ff0303;
+    z-index: 2;
+}
+
+
+/* tour section style */
+.Tours-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 75px;
+    gap: 40px;
+    margin-top: -200px;
+   
+}
+.tour-text{
+    line-height: 35px;
+    
+}
+.common-margin{
+    margin-bottom: 20px;
+}
+.common-btn{
+    border: none;
+    padding: 10px 40px;
+    background: #ff0303;
+    color: white;
+    border-radius: 10px;
+}
+.t-img{
+   
+}
