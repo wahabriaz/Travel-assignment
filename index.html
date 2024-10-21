@@ -1,14 +1,13 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Travel-assignment</title>
+        <title>Travel assignment</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-
 
         <!-- Bootstrap CSS v5.2.1 -->
         <link
@@ -17,105 +16,366 @@
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous"
         />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600;700&display=swap" rel="stylesheet">
+
+
+
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+
         <link rel="stylesheet" href="./style.css">
     </head>
 
     <body>
-        <header class="header-nav">
-            <section class="nav-imag">
-                <img  class="band-img" src="./Hero-Travel-main/Images/Group 40071 (2).png" alt="">
-                <h1>Hero<span class="travel">Travel</span></h1>
-            </section>
-            <section class="nav-section">
-                <nav class="nav-items">
-                    <ul>
-                        <li><a class="home" href="">Home</a></li>
-                        <li><a href="">Packages</a></li>
-                        <li><a href="">Testimonial</a></li>
-                        <li><a href="">Blog</a></li>
-                        <li><a href="">Contact</a></li>
-                    </ul>
-                </nav>
-            </section>
-
-            <!-- place navbar here -->
-        </header>
-        <main class="main">
-            <section class="banner-section"> 
-                <div class="banner-img">
-                    <img class="b-img" src="./Hero-Travel-main/Images/Group 13 (1) (1).png" alt="">
+        <header>
+            <!-- navbar  -->
+            <nav class="head-navbar">
+                <div class="nav-band">
+                    <img class="footer-logo" src="./Hero-Travel-main/Images/logo.png" alt="">
+                    <h1>Hero<span class="travel primary-color">Travel</span></h1>
                 </div>
-                <div class="box-sadow">
-
-                </div>
-            
-                <div class="banner-text-section">
-                        <div class="banner-text">
-                            <h1> Explore Your Travel</h1>
-                            <p> Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio 
-                                enim ac quis sapien urna eu phasellus.</p>
-                        </div>
+                <ul class="">
+                    <li><a  href=""> <span class="primary-color">Home</span></a></li>
+                    <li><a href="">Packages</a></li>
+                    <li><a href="">Testimonial</a></li>
+                     <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
                     
-                        <div class="banner-input">
-                            <div class="input">
-                                <input class="input-g" type="text" placeholder=" Where go">
-                            </div><br>
-                            <div class="input" >
-                                <select class="input-g" required name="" id="" placeholder="">
-                                        <option hidden value="">When</option>
-                                        <option value="January-march">January-march</option>
-                                        <option value="april-june">april-june</option>
-                                        <option value="july-septembor">july-septembor</option>
-                                        <option value="octobor-december">octobor-december</option>
-                                    
-                                </select>
-                            </div><br>
-                                
-                            <div class="input" >
-                                <select class="input-g" required name="" id="" placeholder="">
-                                        <option  hidden value="">Select Type</option>
-                                        <option value="Coach">Coach</option>
-                                        <option value="AC">AC</option>
-                                        <option value="Non-AC">Non-AC</option>
-                                        <option value="Simple">Simple</option>
-                                    
-                                </select>
-                            </div class="input "> 
-                            <div ><button class="find-btn" ><i class="fa fa-search"></i>Find Now</button></div>
-                        </div>
-                        <div class="input-sadow">
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="banner-section">
+                <di class="banner-img">
+                    <img src="./Hero-Travel-main/Images/banner.png" alt="">
+                </di>
+                <div class="gradiant"></div>
+                 <section class="banner-text-section">
+                    <div class="banner-text">
+                        <h1> Explore Your Travel</h1>
+                        <p> Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio 
+                          <br>  enim ac quis sapien urna eu phasellus</p>
+                        
+                    </div><br><br>
+                    <div class="input-bg"></div>
+                    <div class="input-section">
+                        <input class="input" type="text" placeholder="Where go">
+                        <select class="input" name="" id="">
+                            <option hidden value="">When</option>
+                            <option value="Maldives">Maldives</option>
+                            <option value="Indonesia">Indonesia</option>
+                            <option value=" Srilanka"> Srilanka</option>
                             
+                        </select>
+                        <select class="input" name="" id="">
+                            <option hidden value="">Select Type</option>
+                            <option value="Maldives">Maldives</option>
+                            <option value="Indonesia">Indonesia</option>
+                            <option value=" Srilanka"> Srilanka</option>
+                            
+                        </select>
+                        <div class="btn ">
+                            <a href=""><button class="primary-btn" ><i class="fa fa-search icon"></i>Search</button></a>
                         </div>
+
+                    </div>
+                    
+               </section>
+
+            </section>
+
+            <section class="tour-section">
+                <div class="tour-text-section">
+                    <h1 > Our Popular Tours</h1>
+                    <p class="section-height"> Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit 
+                     <br>massa. Sodales dictumst nec nibh pellentesque.</p>
+                     <ul class="section-height">
+                        <li>
+                            <p>Tempus euismod lacus mauris dignissim quis in ultrices. Magna 
+                            <br>nullam odio neque diam. Sociis erat at .</p>
+                        </li>
+                        <li>
+                            <p>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea 
+                              <br>  porta lacus. Lectus suspendisse nullam.</p>
+                        </li>
+                        <li>
+                            <p> Accumsan eget et turpis praesent lorem egestas enim elit 
+                             <br>   bibendum. Risus at in</p>
+                        </li>
+                        
+                     </ul>
+                     <p class="section-height"> Amet consectetur. Vulputate commodo felis molestie risus 
+                      <br>  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. <br>
+                        Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus <br>
+                        semper tincidunt.</p>
+
+                        <a href=""><button class="primary-btn">Read More</button></a>
+                </div>
+                <div class="tour-img-section">
+                    <img src="./Hero-Travel-main/Images/tour img.png" alt="">
+                </div>
+                
+            </section>
+
+            <section class="Destination-section">
+                <div class="Destination-text">
+                    <h1>Choose Your Destination</h1>
+                    <p> Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. 
+                     <br>   Sodales dictumst nec nibh pellentesque.</p>
+                </div>
+
+                <div class="Destination-img">
+
+                   <div class="first-row-img">
+                        <div class="first-row-img-1 position">
+                            <img  src="./Hero-Travel-main/Images/img1.png" alt="">
+                            <h1 class="overlap-text-img1">Maldives</h1>
+                        </div> 
+                        <div class="first-row-img-2 position">
+                            <img class="img-margin" src="./Hero-Travel-main/Images/img2.png" alt="">
+                            <h1 class="overlap-text-img2" > Indonesia</h1>
+                        </div>
+                   </div>
+
+                   <div class="second-row-img">
+                        <div class="second-row-img-1 position">
+                            <img src="./Hero-Travel-main/Images/img3.png" alt="">
+                            <h1 class="overlap-text-second-row-img1"> Srilanka</h1>
+                        </div> 
+                        <div class="second-row-img-2 position">
+                            <img class="margin" src="./Hero-Travel-main/Images/img4.png" alt="">
+                            <h1 class="overlap-text-second-row-img2">North America</h1>
+                        </div>
+                         <div class="second-row-img-3 position">
+                            <img src="./Hero-Travel-main/Images/img5.png" alt="">
+                            <h1 class="overlap-text-second-row-img3"> Kashmir</h1>
+                        </div>
+                   </div>
+
+                   <div class="third-row-img">
+                    <div class="third-row-img-1 position">
+                        <img src="./Hero-Travel-main/Images/img6.png" alt="">
+                        <h1 class="overlap-text-third-row-img1">Bangladesh</h1>
+                    </div> 
+                    <div class="third-row-img-2 position">
+                        <img class="img-margin" src="./Hero-Travel-main/Images/img7.png" alt="">
+                        <h1 class="overlap-text-third-row-img2"> Bandarban</h1>
+                    </div>
+               </div>
+                    
+                  
+                    
+                    
+                    
+                </div>
+            </section>
+
+            <section class="Chooseing-section">
+                <div class="chooseing-text">
+                    <h1>Why Choose Us</h1>
+                    <p> Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. 
+                      <br>  Sodales dictumst nec nibh pellentesque.</p>
+                </div>
+                <div class="first-row">
+                    <div class="card1">
+                        <img class="half-width-img" src="./Hero-Travel-main/icon/png/002-5-stars.png" alt="">
+                        <h1>Handpicked Hotels</h1>
+                        <p> Amet consectetur. Vulputate commodo felis molestie risus  ornare 
+                            nulla amet et. Libero commodo sagittis dignissim adipiscing quis. 
+                            Habitant adipiscing risus natoque aliquet. </p>
+                    </div>
+                    <div class="card2">
+                        <img class="half-width-img" src="./Hero-Travel-main/icon/png/001-map.png" alt="">
+                        <h1>World Class Service</h1>
+                        <p> Amet consectetur. Vulputate commodo felis molestie risus  ornare 
+                            nulla amet et. Libero commodo sagittis dignissim adipiscing quis. 
+                            Habitant adipiscing risus natoque aliquet. </p>
+                    </div>
+                </div>
+                <div class="second-row">
+                    <div class="card3 card1 ">
+                        <img class="half-width-img" src="./Hero-Travel-main/icon/png/003-price-tag.png" alt="">
+                        <h1>Best Price Guarantee</h1>
+                        <p> Amet consectetur. Vulputate commodo felis molestie risus  ornare 
+                            nulla amet et. Libero commodo sagittis dignissim adipiscing quis. 
+                            Habitant adipiscing risus natoque aliquet. </p>
                     </div>
                 </div>
             </section>
-           <section class="Tours-section">
-                <div class="tour-text">
-                    <h1 class="common-margin"> Our Popular Tours</h1>
-                    <p class="common-margin">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit 
-                        massa. Sodales dictumst nec nibh pellentesque.</p>
-                    <ul class="common-margin">
-                        <li> Tempus euismod lacus mauris dignissim quis in ultrices. Magna 
-                            nullam odio neque diam. Sociis erat at </li>
-                        <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea 
-                            porta lacus. Lectus suspendisse nullam.</li>
-                        <li>Accumsan eget et turpis praesent lorem egestas enim elit 
-                            bibendum. Risus at in.</li>
-                    </ul>
-                    <p>Amet consectetur. Vulputate commodo felis molestie risus 
-                        ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. 
-                        Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus 
-                        semper tincidunt.</p>
-                    <a href=""><button class="common-btn">Read More</button></a>
+
+            <section class="discount-section">
+                <div class="discount-text">
+                    <h1>Deals & Discounts</h1>
+                    <p> Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. 
+                     <br>   Sodales dictumst nec nibh pellentesque.</p>
+                </div>
+                <div class="discount-img-card">
+                  <div class="img">
+                    <img src="./Hero-Travel-main/Images/discount img1.png" alt="">
+                  </div>
+                  <div class="discount-card-body">
+                    <div class="card-top">
+                        <div class="discount-card1">
+                            <div class="icon"> <i class="fa fa-clock-o"></i></div>
+                             <div class=""><h4 class="text">7 days/6 Night</h4></div>
+                         </div> 
+                         <div class="discount-card1">
+                            <div class="icon"> <i class="fa fa-users"></i></div>
+                             <div class=""><h4 class="text">Max: 10</h4></div>
+                         </div>
+                          <div class="discount-card1">
+                            <div class="icon"> <i class="fa fa-map"></i></div>
+                             <div class=""><h4 class="text"> Malaysia</h4></div>
+                         </div>
+                    </div>
+                    <div class="body-text">
+                        <h1> Tour To Satorini</h1>
+                        <p> Amet consectetur. Vulputate commodo felis 
+                            molestie risus  ornare nulla amet et. Libero commodo sagittis 
+                            dignissim adipiscing quis. Habitant adipiscing
+                        </p>
+                        <h4 class="primary-color"> Price: $1300-$1500</h4>
+                        <a href=""><button class="primary-btn"> Book Now</button></a>
+                    </div>
+                  </div>
 
                 </div>
-                <div class="Tours-img">
-                    <img class="t-img" src="./Hero-Travel-main/Images/Rectangle 4.png" alt="">
+                <div class="discount-img-card">
+                    <div class="img">
+                      <img src="./Hero-Travel-main/Images/discount img2.png" alt="">
+                    </div>
+                    <div class="discount-card-body2">
+                      <div class="card-top">
+                          <div class="discount-card1">
+                              <div class="icon"> <i class="fa fa-clock-o"></i></div>
+                               <div class=""><h4 class="text">7 days/6 Night</h4></div>
+                           </div> 
+                           <div class="discount-card1">
+                              <div class="icon"> <i class="fa fa-users"></i></div>
+                               <div class=""><h4 class="text">Max: 10</h4></div>
+                           </div>
+                            <div class="discount-card1">
+                              <div class="icon"> <i class="fa fa-map"></i></div>
+                               <div class=""><h4 class="text"> Malaysia</h4></div>
+                           </div>
+                      </div>
+                      <div class="body-text">
+                          <h1> Tour To Satorini</h1>
+                          <p> Amet consectetur. Vulputate commodo felis 
+                              molestie risus  ornare nulla amet et. Libero commodo sagittis 
+                              dignissim adipiscing quis. Habitant adipiscing
+                          </p>
+                          <h4 class="primary-color"> Price: $1300-$1500</h4>
+                          <a href=""><button class="primary-btn"> Book Now</button></a>
+                      </div>
+                    </div>
+  
+                </div>
+                <div class="discount-img-card">
+                    <div class="img">
+                      <img src="./Hero-Travel-main/Images/discount img1.png" alt="">
+                    </div>
+                    <div class="discount-card-body">
+                      <div class="card-top">
+                          <div class="discount-card1">
+                              <div class="icon"> <i class="fa fa-clock-o"></i></div>
+                               <div class=""><h4 class="text">7 days/6 Night</h4></div>
+                           </div> 
+                           <div class="discount-card1">
+                              <div class="icon"> <i class="fa fa-users"></i></div>
+                               <div class=""><h4 class="text">Max: 10</h4></div>
+                           </div>
+                            <div class="discount-card1">
+                              <div class="icon"> <i class="fa fa-map"></i></div>
+                               <div class=""><h4 class="text"> Malaysia</h4></div>
+                           </div>
+                      </div>
+                      <div class="body-text">
+                          <h1> Tour To Satorini</h1>
+                          <p> Amet consectetur. Vulputate commodo felis 
+                              molestie risus  ornare nulla amet et. Libero commodo sagittis 
+                              dignissim adipiscing quis. Habitant adipiscing
+                          </p>
+                          <h4 class="primary-color"> Price: $1300-$1500</h4>
+                          <a href=""><button class="primary-btn"> Book Now</button></a>
+                      </div>
+                    </div>
+  
+                  </div >
+                  <div class="packag">
+                    <a href=""><button class="primary-btn "> See All Packages </button></a>
+                  </div>
+            </section>
+
+            <section class="Perfect-Place-section">
+                <div class="Perfect Place-text-section">
+                    <h1 > A Simple Perfect Place 
+                      <br>  To Get Lost</h1>
+                    <p class=""> Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit 
+                     <br>massa. Sodales dictumst nec nibh pellentesque.</p>
+                     <ul class="">
+                        <li>
+                            <p>Tempus euismod lacus mauris dignissim quis in ultrices. Magna 
+                            <br>nullam odio neque diam. Sociis erat at .</p>
+                        </li>
+                        <li>
+                            <p>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea 
+                              <br>  porta lacus. Lectus suspendisse nullam.</p>
+                        </li>
+                       
+                     </ul>
+                     
+
+                        <a href=""><button class="primary-btn">Read More</button></a>
+                </div>
+                <div class="video-section">
+                    <video class="video" controls src="./video/TRAVEL vlog Intro.mp4"></video>
+                </div>
+                
+            </section>
+
+            <section class="Newsletter-section">
+                <div class="newsletter-input-sectin">
+                    <h1>Newsletter</h1>
+                    <p> Get your daily dose of travel news & tips. Sign 
+                     <br>  up today!</p>
+                     <div class="line"></div>
+                     <input required type="text" placeholder="Enter your name"><br><br>
+                     <input required type="email" placeholder=" Enter your email"><br><br>
+                     <a href=""><button class="primary-btn subscribe">Subscribe</button></a>
+                </div>
+                <div class="newsletter-img-section">
+                    <div class="newsletter-img">
+                        <img class="img" src="./Hero-Travel-main/Images/Rectangle 8 (1).png" alt="">
+                    </div>
+                    <div class="sticker">
+                        <h3>Travel.com</h3>
+                        <h1>Save up to 70%</h1>
+                    </div>
                 </div>
             </section>
+
         </main>
-        <footer>
+        <footer class="footer-section">
+            <div class="footer-band">
+                <img src="./Hero-Travel-main/Images/logo.png" alt="">
+                <h1>Hero<span class="travel primary-color">Travel</span></h1>
+                
+            </div>
+            <p> Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo 
+                <br>  erat maecenas vitae elementum ultricies nullam.</p>
+               <div class="footer-icon">
+                <i class="fa fa-search fa-twitter"></i>
+                <i class="fa fa-search fa-facebook"></i>
+                <i class="fa fa-search fa-instagram"></i>
+                <i class="fa fa-search fa-github"></i>
+               </div>
+               <div class="line f-line"></div>
+               <p>2024, All Rights Reserved.</p>
+                
+            
             <!-- place footer here -->
         </footer>
         <!-- Bootstrap JavaScript Libraries -->
