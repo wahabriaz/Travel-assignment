@@ -263,6 +263,7 @@ body{
 .discount-img-card{
    margin-left: 100px;
    position: relative;
+   margin-bottom: 20px;
 }
 .discount-text{
     text-align: center;
@@ -296,7 +297,7 @@ body{
 }
 .icon{
     font-size: x-large;
-    color: red;
+   
 }
 .text{
     font-size: small;
